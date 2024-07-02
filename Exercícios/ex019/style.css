@@ -1,0 +1,45 @@
+/* em HTML e id    = em css e # (so pode um elemento)
+   em HTML e class = em css e . (pode varios elementos)
+*/
+
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(158, 216, 197);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    height: 75
+    px;
+}
+
+h2 {
+    color: rgb(51, 77, 49);
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
+
+.basico {
+    color: #16c91f;
+    background-color:#48038C ;
+    height: 50px;
+}
+
+.intermediario {
+    color: #eb0606;
+    background-color:#48038C ;
+    height: 50px;
+}
+
+.avancado {
+    color: #0eebeb;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102,102,102);
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav a:hover{
+            text-decoration: underline;
+            color: rgb(0, 0, 0);
+        }
+
+        main {
+            background-color: azure;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: aquamarine;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <h2>Noticias do brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ducimus quaerat aut quis quae non ullam, eum quia recusandae, perspiciatis modi consequuntur molestiae reprehenderit totam, aperiam eveniet unde illo ea.</p>
+            <aside>
+                <p>Artigo escrito por alguem</p>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Diego Lima</p>
+    </footer>
+    <div id="bola">Bola</div>
+</body>
+</html>

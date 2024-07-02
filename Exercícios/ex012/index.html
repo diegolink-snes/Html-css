@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em html</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>esse video esta hospedado no meu proprio servidor</p>
+    <video width="560" height="500" poster="imagens/Screenshot 2024-04-03 203604.png" controls>
+        <source src="midia/invencivel.webm" type="video/webm">
+        <source src="midia/invencivel.mp4" type="video/mp4">
+        <source src="midia/invencivel.ogv" type="video/ogv">
+        <source src="midia/invencivel.wav" type="video/wav">
+        <p>Seu navegador nao tem compatibilidade com reproducao desse video</p>
+    </video>
+    
+    <p>Meu audio do video</p>
+    <audio src="midia/invencivel.wav" controls>meu audio</audio>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Pu6cA2nueWg?si=N9p6feU1Zl63lT0h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+</body>
+</html>
