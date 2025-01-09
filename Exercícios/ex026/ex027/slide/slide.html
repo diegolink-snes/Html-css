@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Função de Nome Completo</title>
+</head>
+<body>
+  <h1>Exemplo de Função em JavaScript</h1>
+  
+  <!-- Script para incluir o JavaScript -->
+  <script>
+    // Função para retornar o nome completo
+    function obterNomeCompleto(nome, sobrenome) {
+      // Verificação de preenchimento do nome
+      if (!nome) {
+        return "Nome inválido";
+      }
+      
+      // Verificação de preenchimento do sobrenome
+      if (!sobrenome) {
+        return "Sobrenome inválido";
+      }
+      
+      // Retorna o nome completo
+      return `${nome} ${sobrenome}`;
+    }
+
+    // Chamadas de teste
+    console.log(obterNomeCompleto("João", "Silva")); // Nome e sobrenome válidos
+    console.log(obterNomeCompleto("joao" , "silva"));     // Nome vazio
+    console.log(obterNomeCompleto("joao" , "silva"));      // Sobrenome vazio
+    let numeros = [1, 2, 3, 4, 5];
+    let soma = 0; // Correção aqui
+    for (let i = 0; i < numeros.length; i++) {
+    soma += numeros[i];
+}
+    console.log(soma);
+
+  </script>
+</body>
+</html>

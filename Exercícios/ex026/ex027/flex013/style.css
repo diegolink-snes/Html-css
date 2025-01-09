@@ -26,12 +26,22 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
+
     flex: 0 0 200px;
 }
 
+header > h1 > a > img {
+    width: 8vw;
+    height: 7vh;
+    cursor: pointer;
+}
+
+header > h1 > a > img:hover{
+    background-color: rgb(247, 95, 28);
+    border-radius: 5px;
+}
+
 header > nav {
-    border: 1px dotted black;
 
     display: flex;
     flex-flow: row wrap;

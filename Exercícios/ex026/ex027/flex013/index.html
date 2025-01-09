@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Meu Site</h1>
+        <h1><a href="https://slimeread.com/manga/6684/One-Piece-Digital-Colored-Comics" target="_blank"><img src="vetor-de-logotipo-ceifador-de-caveira.png" alt="logo"></a></h1>
         <nav>
             <a href="#">Opcao 1</a>
             <a href="#">Opcao 2</a>
@@ -26,5 +26,46 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates minima tempora enim porro aliquid natus, fugiat beatae mollitia, dolor pariatur repudiandae amet soluta blanditiis deserunt? Quis officia fugit consequuntur a?
         </p>
     </main>
+
+    <script>
+        let a = 10;
+        let b = 5;
+
+        let adicao = a + b;
+        console.log(adicao);
+
+        let subtracao = a - b;
+        console.log(subtracao);
+
+        console.log("O valor da adicao e:" + adicao + " o valor da subtracao e:" + subtracao)
+
+        let multiplicacao = a * b;
+        let divisao = a / b;
+        console.log("O valor da multiplicacao e: " + multiplicacao + " o valor da divisao e: " + divisao);
+
+        function frutasDesejadas(fruta1, fruta2){
+            const frutaDesejada = "maca";
+            const frutaDesejada2 = "banana";
+
+            return (fruta1 == frutaDesejada && fruta2 == frutaDesejada2)
+        }
+
+        console.log(frutasDesejadas("maca","banana"));
+        console.log(frutasDesejadas("uva","pera"));
+        console.log(frutasDesejadas("uva","banana"));
+
+        function pelomenosumafruta(fruta1,fruta2){
+            const frutadesejada = "morango";
+            const frutadesejada2 = "mamao";
+
+            return (fruta1 == frutadesejada || fruta2== frutadesejada2)
+        }
+
+        console.log(pelomenosumafruta("morango" , "mamao"));
+        console.log(pelomenosumafruta("morango" , "banana"));
+        console.log(pelomenosumafruta("uva" , "mamao"));
+        console.log(pelomenosumafruta("acerola" , "banana"));
+
+    </script>
 </body>
 </html>
